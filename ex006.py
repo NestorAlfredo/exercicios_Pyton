@@ -1,0 +1,5 @@
+n1 = float(input('Digite um numero'))
+print('O número escolhido foi ', n1)
+print('O dobro deste numero é ', (n1 * 2))
+print('O triplo deste número é ', (n1 * 3))
+print('A raiz quadrada deste numero é ', (n1 ** (1 / 2)))
