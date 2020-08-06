@@ -1,0 +1,5 @@
+preco=float(input('Qual é o valor do produto em R$ '))
+desc= float(input('Quanto de desconto voce quer dar em % '))
+novopreco= (preco - (preco*(desc/100)))
+print('O seu produto de {:.2f} com {}% de desconto'.format(preco, desc))
+print('O novo preço do produto é R${:.2f}'.format(novopreco))
